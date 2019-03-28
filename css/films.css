@@ -1,0 +1,159 @@
+@import "header.css";
+@import "body_style.css";
+@import "menu.css";
+@import "footer.css";
+@import "section.css";
+@import "burger_menu.css";
+
+section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: max-content;
+  position: relative;
+  background-color: white;
+}
+
+h2 {
+  color: rgb(67, 68, 80);
+  border-bottom: 1px solid #DFD5CD;
+  padding-bottom: 5px;
+}
+
+.right_sitebar {
+  margin-top: 53px;
+  border-left: 1px solid #DFD5CD;
+}
+
+.bread_crumbs {
+  text-align: left;
+  padding: 10px;
+}
+
+.bread_crumbs_link {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+.info {
+  height: max-content;
+  font-size: 26px;
+  text-align: left;
+  border-bottom: 1px solid rgb(67, 68, 80);
+}
+
+#box {
+  display: inline-block;
+  text-align: center;
+}
+
+.recipt {
+  display: inline-block;
+  width: 350px;
+  min-width: 300px;
+  height: 300px;
+  margin: 30px;
+  overflow: hidden;
+}
+
+.recipt a {
+  text-decoration: none;
+  color: #486b6f;
+}
+
+.recipt img {
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+}
+
+figure {
+  height: 80%;
+  cursor: pointer;
+}
+
+.row_one {
+  width: max-content;
+  position: fixed;
+  top: 50px;
+  z-index: 1000;
+}
+
+.row_one:before {
+  color: red;
+  width: 40px;
+  content: url("../img/films/go.jpg") ;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.row {
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  z-index: 1000;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  header {
+    display: block;
+    width: max-content;
+    height: max-content;
+  }
+
+  header a {
+    width: 100px;
+  }
+
+  .slogan {
+    width: 50%;
+    color: #084C4C;
+    position: absolute;
+    left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .recipt {
+    display: block;
+    width: 70%;
+    height: max-content;
+    margin: auto 15%;
+  }
+
+  #box {
+    text-align: center;
+  }
+
+  .right_sitebar {
+    display: none;
+  }
+
+  section {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}

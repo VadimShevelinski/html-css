@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Caveat sans-serif;
+  src: url("../fonts/Caveat/Caveat-Bold.ttf");
+  src: url("../fonts/Caveat/Caveat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Kurale sans-serif;
+  src: url("../fonts/Kurale/Kurale-Regular.ttf");
+}
+
+@font-face {
+  font-family: Marmelad sans-serif;
+  src: url("../fonts/Marmelad/Marmelad-Regular.ttf");
+}
+
+@font-face {
+  font-family: Pacifico sans-serif;
+  src: url("../fonts/Pacifico/Pacifico-regular.ttf");
+}
+
+@font-face {
+  font-family: 'Playfair_Display';
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Black.ttf");
+}
+
+@font-face {
+  font-family: 'Playfair_Display';
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: Yanone_Kaffesatz sans-serif;
+  src: url("../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Regular.ttf");
+}
+
+@font-face {
+  font-family: Alice sans-serif;
+  src: url("../fonts/alice/Alice-Regular.ttf");
+}

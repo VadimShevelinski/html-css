@@ -1,0 +1,139 @@
+@import "header.css";
+@import "body_style.css";
+@import "menu.css";
+@import "footer.css";
+@import "burger_menu.css";
+
+section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: max-content;
+  position: relative;
+  background-color: white;
+}
+
+h2 {
+  color: rgb(67, 68, 80);
+  border-bottom: 1px solid #DFD5CD;
+  padding-bottom: 5px;
+}
+
+.right_sitebar {
+  width: 30%;
+  height: max-content;
+  margin-top: 33px;
+  border-left: 1px solid #DFD5CD;
+}
+
+.slides {
+  height: 300px;
+  margin: 60px auto;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+.right_sitebar img {
+  width: 100%;
+}
+
+.slides ul {
+  list-style: none;
+  position: relative;
+}
+
+.bread_crumbs {
+  text-align: left;
+  padding: 10px;
+}
+
+.bread_crumbs_link {
+  font-weight: lighter;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+#box {
+  display: inline-block;
+  text-align: center;
+}
+
+.recipt {
+  display: inline-block;
+  width: 350px;
+  min-width: 300px;
+  height: 300px;
+  margin: 30px 30px 30px 0;
+  overflow: hidden;
+}
+
+.recipt a {
+  text-decoration: none;
+  color: #486b6f;
+}
+
+.recipt img {
+  width: 100%;
+  padding-top: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  header {
+    display: block;
+    width: max-content;
+    height: max-content;
+  }
+
+  header a {
+    width: 100px;
+  }
+
+  .slogan {
+    width: 50%;
+    color: #084C4C;
+    position: absolute;
+    left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .recipt {
+    display: block;
+    width: 80%;
+    height: max-content;
+  }
+
+  #box {
+    text-align: center;
+  }
+
+  .right_sitebar {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}

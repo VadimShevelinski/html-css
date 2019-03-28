@@ -1,0 +1,183 @@
+@import "body_style.css";
+@import "header.css";
+@import "menu.css";
+@import "section.css";
+@import "burger_menu.css";
+@import "footer.css";
+
+.bread_crumbs {
+  text-align: left;
+  padding: 10px;
+}
+
+.bread_crumbs_link {
+  text-decoration: none;
+  color: black;
+  font-family: Alice sans-serif;
+}
+
+article {
+  width: 100%;
+  margin: 10px;
+  padding-top: 50px;
+}
+
+h2, h3 {
+  color: rgb(67, 68, 80);
+}
+
+article h1 {
+  color: rgb(67, 68, 80);
+}
+
+.article_author_info {
+  margin-top: 0;
+  width: 20%;
+  height: 100%;
+  float: left;
+  border-bottom: 1px solid #DFD5CD;
+}
+
+.article_author_info img {
+  width: 100%;
+}
+
+.article_author_info h4 {
+  color: darkslategray;
+}
+
+article img {
+  margin: 10px 5px;
+}
+
+.article_author_info div {
+  border-bottom: 2px;
+  border-right: 2px;
+  border-color: #DFD5CD;
+}
+
+article .article_author_info .citations {
+  margin-top: 60px;
+}
+
+article .article_text {
+  font-size: 26px;
+  font-weight: lighter;
+  overflow: hidden;
+  width: 70%;
+  display: inline-block;
+}
+
+article .article_text p {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.review {
+  margin: 50px 0;
+  border-bottom: 2px solid #DFD5CD;
+}
+
+.reviews {
+  font-size: 20px;
+  text-transform: inherit;
+  -webkit-box-shadow: 3px 3px 5px 2px grey;
+  box-shadow: 3px 3px 5px 2px grey;
+  margin: 50px;
+  text-align: left;
+}
+
+.reviews a {
+  text-decoration: none;
+}
+
+.footer {
+  height: 100px;
+  background: #f5f5f5;
+  padding-top: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  header {
+    display: block;
+    width: max-content;
+    height: max-content;
+  }
+
+  header a {
+    width: 100px;
+  }
+
+  .slogan {
+    margin-top: 100px;
+    width: 50%;
+    color: #084C4C;
+    position: absolute;
+    left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  form {
+    display: none;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .right_sitebar {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  section {
+    padding: 0;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+  }
+
+  .preview_articles {
+    width: 100%;
+  }
+
+  .text_article {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  body {
+    width: 1024px;
+  }
+
+  .wrapper {
+    width: 1024px;
+  }
+}
+
+@media ( min-width: 1023px) {
+  .menu {
+    display: none;
+  }
+}

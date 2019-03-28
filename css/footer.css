@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  text-align: left;
+  background: white;
+  padding: 50px auto;
+  border-top: 1px solid black;
+  margin-bottom: 50px ;
+}
+#copyright {
+  margin: 50px 50px auto auto;
+}
+
+.footer img {
+  width: 50px;
+}
+
+li {
+  list-style: none;
+  font-size: 32px;
+}
+
+.tel {
+  width: 230px;
+  text-align: right;
+  background: url("../img/soc/tel.jpg") no-repeat;
+  background-position: 0 0;
+  -webkit-background-size: 40px;
+  background-size: 40px;
+}
